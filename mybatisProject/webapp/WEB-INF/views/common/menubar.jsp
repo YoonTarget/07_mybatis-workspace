@@ -47,6 +47,13 @@
 </style>
 </head>
 <body>
+	<c:if test="${ not empty alertMsg }">
+		<script>
+			alert("${ alertMsg }");
+		</script>
+		
+		<c:remove var="alertMsg"/>
+	</c:if>
 	<h1 align="center">Welcome to MyBatis World</h1>
 	<br>
 

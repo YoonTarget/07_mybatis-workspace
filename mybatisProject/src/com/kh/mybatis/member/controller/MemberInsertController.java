@@ -47,6 +47,8 @@ public class MemberInsertController extends HttpServlet {
 		
 		if(result > 0) { // 성공 => 메인페이지
 			
+			request.getSession().setAttribute("alertMsg", "회원가입 성공!!");
+			
 			response.sendRedirect(request.getContextPath());
 			
 		}
