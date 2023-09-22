@@ -38,7 +38,7 @@
 
 	.outer {
 		width: 900px;
-		height: 500px;
+		height: auto;
 		background-color: #202020;
 		color: #f8f8f8;
 		margin: auto;
@@ -94,7 +94,7 @@
 						</tr>
 						<tr>
 							<td><a href="#">마이페이지</a></td>
-							<td><a href="#">로그아웃</a></td>
+							<td><a href="logout.me">로그아웃</a></td>
 						</tr>
 					</table>
 				</div>
